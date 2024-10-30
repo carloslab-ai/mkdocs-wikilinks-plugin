@@ -10,15 +10,15 @@ with open("README.md", "r") as f:
 with open("requirements.txt", "r") as f:
     required=f.read().splitlines()
 setup(
-    name="mkdocs-ezlinked-plugin",
+    name="mkdocs-wikilinks-plugin",
     version=version,
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords="mkdocs, wikilinks, ezlinks, obsidian, roam",
-    url="https://github.com/Mara-Li/mkdocs-ezlinks-plugin",
-    author="Mara-Li",
-    author_email="Mara-Li@outlook.fr",
+    url="https://github.com/carloslab-ai/mkdocs-wikilinks-plugin",
+    author="Carlos",
+    author_email="carlos.truong.dev@gmail.com",
     license="MIT",
     python_requires=">=3.6",
     install_requires=required,
