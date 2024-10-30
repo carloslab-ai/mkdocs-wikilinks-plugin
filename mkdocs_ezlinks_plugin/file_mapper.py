@@ -25,6 +25,9 @@ class FileMapper:
 
         for file in self.files:
             self._store_file(file.src_uri)
+            
+        # Reduce the dictionary to only search terms that are unique
+        self.file_cache = {k: v for (k, v) in self.file_cache.items() if len(v) == 1}
 
     def _store_file(self, file_path):
         # Treat paths as posix format, regardless of OS
@@ -44,9 +47,6 @@ class FileMapper:
             components = list(search_expr.split('/'))
             components.reverse()
             self.file_trie['/'.join(components)] = file_path
-
-        # Reduce the dictionary to only search terms that are unique
-        self.file_cache = {k: v for (k, v) in self.file_cache.items() if len(v) == 1}
 
     def search(self, from_file: str, file_path: str):
         abs_to = file_path
