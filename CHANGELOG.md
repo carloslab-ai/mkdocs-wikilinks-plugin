@@ -41,6 +41,12 @@ fix #1 ([`380116f`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/comm
 
 ### Unknown
 
+* - update version ([`1c2268f`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/commit/1c2268fd2519be83650b3d628752087fe07b7156))
+
+* Merge branch 'main' of https://github.com/carloslab-ai/mkdocs-wikilinks-plugin ([`4600d05`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/commit/4600d057495df54e89599bd3e7a10ccf0b5728bb))
+
+* - update setup info ([`f82e19d`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/commit/f82e19d05bf2d7439e54e04e6025cbeb86de34ad))
+
 * - update publish workflow ([`b1eaf9f`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/commit/b1eaf9fb7de98b9b55ef1d75c39487eb69f5f822))
 
 * * Fix different links with the same file name point to the first file ([`41a1caf`](https://github.com/carloslab-ai/mkdocs-wikilinks-plugin/commit/41a1caff4280d13a9776ea061b1d878d06bef240))
