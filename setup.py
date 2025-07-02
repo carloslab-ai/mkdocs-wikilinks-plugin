@@ -18,7 +18,7 @@ setup(
     keywords="mkdocs, wikilinks, ezlinks, obsidian, roam",
     url="https://github.com/carloslab-ai/mkdocs-wikilinks-plugin",
     author="Carlos",
-    author_email="carlos.truong.dev@gmail.com",
+    author_email="carlos@carloslab-ai.com",
     license="MIT",
     python_requires=">=3.6",
     install_requires=required,
